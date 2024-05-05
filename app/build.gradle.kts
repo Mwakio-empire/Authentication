@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.authentication"
+    namespace = "com.example.Connectify"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.authentication"
+        applicationId = "com.example.Connectify"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -67,6 +67,7 @@ dependencies {
     implementation(libs.firebase.firestore.ktx)
     implementation(libs.firebase.storage)
     implementation(libs.firebase.firestore)
+    implementation(libs.androidx.core.splashscreen)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

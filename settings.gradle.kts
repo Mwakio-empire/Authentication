@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Authentication"
+rootProject.name = "Connectify"
 include(":app")
